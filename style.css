@@ -1,0 +1,142 @@
+/* Titulos y logo */
+
+
+header{
+    width: 100%;
+    float: left;
+    background:  #D8DFE8 ;
+
+}
+
+.logo{
+    margin-top: 2%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.titulo{
+    float: inherit;
+    margin-left: 20%;
+
+}
+
+
+/* Cuerpo del programa */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #D8DFE8;
+}
+
+/* Contenedor de todo los paneles */
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+
+/* Panel izquierdo */
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+#textoEncriptado{
+    float: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px ;
+    border: none;
+    outline: none;
+    background: #D8DFE8;
+}
+
+.left-buttons{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+p{
+    float: 10%;
+    margin-left: 15%;
+    color: #495057;
+
+}
+
+#botonEncriptar{
+   padding: 24px;
+   width: 30%;
+   height: 60%;
+   border-radius: 24px;
+   margin-left: 15%;
+   background: #0A3871; 
+   color: white;
+}
+
+#botonDesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8; 
+}
+
+/* Boton copiar */
+
+#botonCopiar{
+    display: none;
+    border-radius: 24px;
+}
+
+/* Panel derecho */
+
+.right{
+
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+}
+
+#muñeco{
+   margin-left: 2%;
+   margin-top: 20%;
+   width: 90%; 
+   height: auto;
+}
+
+#mensaje{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#textoDesencriptado{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+
+/* Botones del lado izquierdo */
+
+
+

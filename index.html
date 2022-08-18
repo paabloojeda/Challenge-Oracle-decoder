@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="logica.js"></script>
+    <title>Desafio Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="logo">
+    <img id="logo" src="/img/Vector.png" alt="">
+    <h1 class="titulo">Encriptador de texto</h1>
+</header>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <input type="text" id="textoEncriptado" placeholder="Escriba el texto aqui">
+        </div>
+
+        <div class="right">
+            <img id="muñeco" src="/img/Muñeco.png" alt="">
+            <h1 id="mensaje">Ningun mensaje fue encontrado</h1>
+            <textarea name="resultado" id="textoDesencriptado" placeholder="Escriba el texto que desea encriptar o desencriptar" rows="8" cols="80"></textarea>
+        </div>
+
+        <div class="left-buttons">
+            <p>	&#10071; Solo letras minusculas y sin acentos</p>
+        <button type="button" id="botonEncriptar">Encriptar</button>
+        <button type="button" id="botonDesencriptar">Desencriptar</button>
+        <button type="button" id="botonCopiar">Copiar</button> 
+        </div>
+        </div>
+   
+</body>
+
+<footer>
+    <h1>By Pablo Ojeda</h1>
+</footer>
+<script>
+
+    //Boton de encriptar:
+    var btn = document.querySelector("#botonEncriptar");
+    btn.onclick = encriptar;
+
+    //Boton de desencriptar:
+    var btn2 = document.querySelector("#botonDesencriptar");
+    btn2.onclick = desencriptar;
+
+    //Boton copiar:
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+
+</script>
+</html>
